@@ -183,6 +183,10 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.45,
+          "drill": 0.3
+        },
+        {
           "diameter": 0.5,
           "drill": 0.25
         }
@@ -510,7 +514,7 @@
     "netclass_assignments": {
       "+12VA": "12V",
       "CN10_12V_GATE": "12V_Thin",
-      "CN10_3V3_GATE": "12V_Thin",
+      "CN10_3V3_GATE": "LV_PWR_DIST",
       "CN5_DRAIN": "12V",
       "CN6_4": "12V",
       "CN6_6": "12V",
