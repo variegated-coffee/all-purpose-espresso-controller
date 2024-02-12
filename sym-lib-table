@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "FDC1004")(type "KiCad")(uri "${KIPRJMOD}/FDC1004.kicad_sym")(options "")(descr ""))
+  (lib (name "ALDP112")(type "KiCad")(uri "${KIPRJMOD}/ALDP112/2023-11-16_21-44-56.kicad_sym")(options "")(descr ""))
+  (lib (name "ECE05")(type "KiCad")(uri "${KIPRJMOD}/ECE05/2023-11-16_22-49-14.kicad_sym")(options "")(descr ""))
+  (lib (name "TPIC6C595")(type "KiCad")(uri "${KIPRJMOD}/TPIC6C595DG4/TPIC6C595DG4.kicad_sym")(options "")(descr ""))
+  (lib (name "ul_PTS815-SJM-250-SMTR-LFS")(type "KiCad")(uri "${KIPRJMOD}/ul_PTS815-SJM-250-SMTR-LFS.kicad_sym")(options "")(descr ""))
+)
