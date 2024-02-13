@@ -91,6 +91,60 @@
 * CN1
 * J14, 3 pins
 
+## Lelit Bianca v2 with Open LCC, Gear Pump, and Pump Pressure Transducer
+
+### IO Assignment
+
+* CN10 - Open LCC
+* CN1 - Water level probe
+* CN2 - Water tank level switch
+* CN3 - Service Boiler NTC
+* CN4 - Brew Boiler NTC
+* CN5 - Brew Boiler SSR
+* CN9 - Service Boiler SSR
+* CN7 - Brew Switch
+* JP2 Pin 3 - Water line / Low flow solenoid
+* JP2 Pin 4 - Service boiler solenoid
+* CN6 Pin 3 - Gear pump speed PWM
+* CN6 Pin 5 - Gear Pump Tacheometer Input
+* J11 Pin 2 - Pressure Transducer Analog Input
+
+### Configuration
+
+* ADC Vcc - 5V
+* CN10 Vcc - 3V3
+* DNF ESP32
+
+
+## Rancilio Silvia with ESP32, SSD1309 display, Rotary encoder, Gear Pump, and Pump Pressure Transducer
+
+### IO Assignment
+
+* CN10 - Open LCC
+* CN4 - Boiler NTC
+* CN5 - Boiler SSR
+* J12 Pin 8 - Display MOSI
+* J12 Pin 4 - Display SCLK
+* J12 Pin 6 - Display RES
+* J12 Pin 10 - Display DC
+* Hard-wire Display CS
+* CN7 - Brew Switch
+* CN2 - Water Switch
+* J12 Pin 9 - Steam Switch
+* J12 Pin 3 - Rotary Encoder Clk
+* J12 Pin 5 - Rotary Encoder D
+* J12 Pin 7 - Rotary Encoder SW
+* JP2 Pin 4 - Three-way solenoid
+* CN6 Pin 3 - Gear pump speed PWM
+* CN6 Pin 5 - Gear Pump Tacheometer Input
+* J11 Pin 2 - Pressure Transducer Analog Input
+
+### Configuration
+
+* ADC Vcc - 5V
+* CN10 Vcc - 3V3
+* DNF ESP32
+
 ## Worst case scenario IO Assignment
 
 ### Machine spec

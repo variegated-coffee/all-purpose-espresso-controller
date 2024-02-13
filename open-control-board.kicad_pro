@@ -514,7 +514,8 @@
     "netclass_assignments": {
       "+12VA": "12V",
       "CN10_12V_GATE": "12V_Thin",
-      "CN10_3V3_GATE": "12V_Thin",
+      "CN10_3V3_GATE": "LV_PWR_DIST",
+      "CN10_UART_VCC": "LV_PWR_DIST",
       "CN5_DRAIN": "12V",
       "CN6_4": "12V",
       "CN6_6": "12V",
@@ -532,15 +533,14 @@
       "N": "230V",
       "Net-(CN10-Pin_1)": "12V",
       "Net-(CN10-Pin_5)": "LV_PWR_DIST",
-      "Net-(CN10-Pin_6)": "LV_PWR_DIST",
       "Net-(J3-Pin_1)": "230V",
       "Net-(J4-Pin_1)": "230V",
       "Net-(J5-Pin_1)": "230V",
       "Net-(J6-Pin_1)": "230V",
       "Net-(J8-Pin_1)": "230V",
-      "Net-(JP4-C)": "12V",
-      "Net-(JP5-C)": "12V",
-      "Net-(JP6-C)": "12V",
+      "Net-(JP4-C)": "12V_Thin",
+      "Net-(JP5-C)": "12V_Thin",
+      "Net-(JP6-C)": "12V_Thin",
       "Net-(U15-DRAIN0)": "12V_Thin",
       "Net-(U15-DRAIN1)": "12V_Thin",
       "Net-(U15-DRAIN2)": "12V_Thin",
@@ -552,9 +552,12 @@
       "Net-(U16-DRAIN1)": "12V_Thin",
       "Net-(U4-VREG_VOUT)": "LV_PWR_DIST",
       "PH": "230V",
-      "VOUT_1_GATE": "12V_Thin",
-      "VOUT_2_GATE": "12V_Thin",
-      "VOUT_3_GATE": "12V_Thin"
+      "VOUT_1": "12V_Thin",
+      "VOUT_1_GATE": "Default",
+      "VOUT_2": "12V_Thin",
+      "VOUT_2_GATE": "Default",
+      "VOUT_3": "12V_Thin",
+      "VOUT_3_GATE": "Default"
     },
     "netclass_patterns": [
       {
@@ -572,10 +575,6 @@
       {
         "netclass": "LV_PWR_DIST",
         "pattern": "GND"
-      },
-      {
-        "netclass": "12V_Thin",
-        "pattern": "VOUT*"
       },
       {
         "netclass": "LV_PWR_DIST",
