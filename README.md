@@ -14,6 +14,8 @@ It's designed to have the same PCB size as many very common Gicar controllers, m
 * FDC1004 Capacitance-to-digital (inteded for e.g. water level probes or capitance based controls)
 * QWIIC ports (one per microcontroller) for additional expandability
 
+![PCB](.github/pcb.png?raw=true "PCB") ![3D render](.github/3d-render.png?raw=true "PCB 3D render")
+
 ## Project status
 
 The current hardware revision is R0A. It hasn't been manufactured yet, and you shouldn't be the first one to do it.

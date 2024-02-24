@@ -6079,7 +6079,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/e244147f-a484-4e1a-8f99-cb3d58fa9d35")
     (attr smd)
-    (fp_text reference "C24" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C24" (at 0 -1.16) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4b164a87-62f6-44a1-82ea-adf77b39157c)
     )
@@ -7064,7 +7064,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/ef31598b-857a-489e-84c0-e2fde6c42040")
     (attr smd)
-    (fp_text reference "C25" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C25" (at 0 -1.16) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1fc96516-7373-4fed-839c-85fa6b15c7b6)
     )
@@ -8958,7 +8958,7 @@
   (gr_text "USB\n5V" (at 98.3 67.45) (layer "F.SilkS") (tstamp 96c9462e-8a8a-4999-8745-ae0bb61566de)
     (effects (font (size 0.5 0.5) (thickness 0.1) bold) (justify bottom))
   )
-  (gr_text "5V" (at 115.6 53.05) (layer "F.SilkS") (tstamp a160ea15-d0a9-4386-9020-98f7b317b98a)
+  (gr_text "3V3" (at 115.6 53.05) (layer "F.SilkS") (tstamp a160ea15-d0a9-4386-9020-98f7b317b98a)
     (effects (font (size 0.5 0.5) (thickness 0.1) bold) (justify bottom))
   )
   (gr_text "12V" (at 68.9 71.65) (layer "F.SilkS") (tstamp a26b0ee0-4300-49de-9bea-03332c3fc9d1)
