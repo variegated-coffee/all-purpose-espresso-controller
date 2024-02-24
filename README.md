@@ -22,6 +22,10 @@ There's also a corresponding high-voltage board, with relays and an AC/DC conver
 
 The current hardware revision is R0A. It hasn't been manufactured yet, and you shouldn't be the first one to do it.
 
+## Disclaimer
+
+Anything you do with this, you do at your own risk. This hardware hasn't even been manufactured by it's creator yet. Your machine uses both line voltage power, high pressured hot water, steam and other dangerous components. You *really* shouldn't be using this yet; in fact, you shouldn't even consider it. Risks include but are not limited to, damaging your machine, personal injury, property damage and summoning dead Cthulhu from his sleep at R'lyeh.
+
 ## Connectivity IO
 
 ### LCC/Display Connector
