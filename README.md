@@ -1,8 +1,10 @@
 # All Purpose Espresso Controller
 
-Espresso electronics are usually proprietary affairs with little to no expandability. The purpose of this project is to give everyone an open source alternative with lots of features and flexibility.
+Espresso electronics are usually proprietary affairs with little to no expandability. The purpose of this project is to give everyone an open source alternative with lots of features and flexibility. 
 
-It's designed to have the same PCB size as many very common Gicar controllers, making it fairly easy to swap this board into your existing enclosure.
+It is designed to be useful in many different espresso machines, and for many different hardware configurations. It has the same PCB size as many very common Gicar controllers, making it fairly easy to swap this board into your existing enclosure.
+
+There's also a corresponding high-voltage board, with relays and an AC/DC converter, designed to also fit into those same Gicar enclosures.
 
 ## High-level features
 
