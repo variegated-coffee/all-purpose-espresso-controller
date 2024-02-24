@@ -7370,7 +7370,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged12") (at -82.55 229.87 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b4c1ac9-b192-48cc-9ce3-9855634643bd)
     (property "Reference" "JP4" (at -85.09 228.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -7400,7 +7400,7 @@
   )
 
   (symbol (lib_id "Switch:SW_Push") (at 40.64 422.91 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d40dc38-994d-4d30-bbf1-51c425678756)
     (property "Reference" "SW2" (at 40.64 415.29 0)
       (effects (font (size 1.27 1.27)))
@@ -7909,7 +7909,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 22.86 104.14 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a857811-4bfb-4bbe-bb31-8a15128b7043)
     (property "Reference" "CN5" (at 23.495 99.06 0)
       (effects (font (size 1.27 1.27)))
@@ -8037,7 +8037,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 27.94 71.12 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f76a4f6-0757-4c85-8b0a-d3e847a6fa91)
     (property "Reference" "CN3" (at 28.575 66.04 0)
       (effects (font (size 1.27 1.27)))
@@ -8639,7 +8639,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 26.67 130.81 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33ba29c6-bf7c-4653-bb7b-c05f08b8ba31)
     (property "Reference" "CN9" (at 27.305 125.73 0)
       (effects (font (size 1.27 1.27)))
@@ -8882,7 +8882,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x04_Odd_Even") (at 80.01 81.28 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c1aa393-ea68-4c83-b11a-f01b8782b6e3)
     (property "Reference" "J14" (at 81.28 72.39 0)
       (effects (font (size 1.27 1.27)))
@@ -9016,7 +9016,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged12") (at 307.34 254 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 3f72fd46-cf8f-40b5-b208-6f235a660ce7)
     (property "Reference" "JP13" (at 309.88 251.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -9291,7 +9291,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged12") (at -82.55 279.4 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47ab8e12-a467-47d1-bf35-ccfa756aeceb)
     (property "Reference" "JP5" (at -85.09 278.13 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -9532,7 +9532,7 @@
   )
 
   (symbol (lib_id "Switch:SW_Push") (at 40.64 407.67 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c7e8a3d-9939-41a7-b5bc-e09ae9d1ecb0)
     (property "Reference" "SW1" (at 40.64 400.05 0)
       (effects (font (size 1.27 1.27)))
@@ -9773,7 +9773,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x05_Odd_Even") (at 35.56 223.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 532c157c-f58f-464a-8c49-b3eecf8e443d)
     (property "Reference" "J13" (at 36.83 212.09 0)
       (effects (font (size 1.27 1.27)))
@@ -10001,7 +10001,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 633.73 49.53 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c1df050-d631-4d1f-8139-5d4b99807695)
     (property "Reference" "J18" (at 635 48.26 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -10203,7 +10203,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x05_Odd_Even") (at 501.65 163.83 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 64f1442f-003f-4df5-a8e1-16984c203c02)
     (property "Reference" "J15" (at 502.92 152.4 0)
       (effects (font (size 1.27 1.27)))
@@ -10310,7 +10310,7 @@
   )
 
   (symbol (lib_id "Switch:SW_Push") (at 520.7 222.25 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6801020e-8394-462b-ba89-2ba20d2443fc)
     (property "Reference" "SW4" (at 520.7 214.63 0)
       (effects (font (size 1.27 1.27)))
@@ -10836,7 +10836,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 27.94 82.55 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7a874822-4b20-4d92-b2f1-e698dd46a20f)
     (property "Reference" "CN4" (at 28.575 77.47 0)
       (effects (font (size 1.27 1.27)))
@@ -10865,7 +10865,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x04_Pin") (at 72.39 31.75 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7bc0bb8f-4be5-4fae-b9ed-ed6a552e7441)
     (property "Reference" "J10" (at 73.025 24.13 0)
       (effects (font (size 1.27 1.27)))
@@ -11213,7 +11213,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x04_Odd_Even") (at 34.29 148.59 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84b90ecd-bb0c-4599-942d-955dfc653678)
     (property "Reference" "CN6" (at 35.56 139.7 0)
       (effects (font (size 1.27 1.27)))
@@ -11397,7 +11397,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 27.94 48.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8803b614-6a95-457e-9319-a8102e96d62a)
     (property "Reference" "CN1" (at 28.575 43.18 0)
       (effects (font (size 1.27 1.27)))
@@ -11639,7 +11639,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged12") (at 34.29 194.31 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8edcb86a-7e67-4b6d-83c5-d43699e646ca)
     (property "Reference" "JP9" (at 34.29 198.12 0)
       (effects (font (size 1.27 1.27)))
@@ -12237,7 +12237,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x04_Pin") (at 72.39 63.5 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d93eed9-0e1b-480a-be4a-d3889b127122)
     (property "Reference" "J11" (at 73.025 55.88 0)
       (effects (font (size 1.27 1.27)))
@@ -12425,7 +12425,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x06_Pin") (at 27.94 30.48 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a218a3b0-225b-4abb-8253-8f61a8ecabe5)
     (property "Reference" "JP2" (at 28.575 20.32 0)
       (effects (font (size 1.27 1.27)))
@@ -12771,7 +12771,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 74.93 105.41 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a961ccb6-d644-4cb0-9c2a-a9bda12d8d9f)
     (property "Reference" "J12" (at 76.2 93.98 0)
       (effects (font (size 1.27 1.27)))
@@ -12840,7 +12840,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 563.88 165.1 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab3b474f-e853-43ec-910d-c21dd8a319c7)
     (property "Reference" "JP7" (at 565.15 163.83 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -13793,7 +13793,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged12") (at -82.55 325.12 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd94a594-c786-4dcf-882e-58f513167530)
     (property "Reference" "JP6" (at -85.09 323.85 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -14291,7 +14291,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x06_Pin") (at 22.86 172.72 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7ddb3f1-6682-4c3d-bfe2-4488c7883e9f)
     (property "Reference" "CN10" (at 23.495 162.56 0)
       (effects (font (size 1.27 1.27)))
@@ -14379,7 +14379,7 @@
   )
 
   (symbol (lib_id "Switch:SW_Push") (at 520.7 207.01 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da7099b4-e687-43a0-b0bc-f97949b38477)
     (property "Reference" "SW3" (at 520.7 199.39 0)
       (effects (font (size 1.27 1.27)))
@@ -14579,7 +14579,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 26.67 119.38 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3e54a5d-0c64-4314-b79c-a1dd0efff35c)
     (property "Reference" "CN7" (at 27.305 114.3 0)
       (effects (font (size 1.27 1.27)))
@@ -14944,7 +14944,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 40.64 254 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6677926-c866-4593-91ce-f0ae17769e24)
     (property "Reference" "JP3" (at 41.91 252.73 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -14998,7 +14998,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 27.94 59.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f7cb00bb-54ca-42c5-8545-0d69b64ccdd6)
     (property "Reference" "CN2" (at 28.575 54.61 0)
       (effects (font (size 1.27 1.27)))
@@ -15077,7 +15077,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 72.39 48.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9a805dc-c766-4161-a7ca-aaaad6209077)
     (property "Reference" "CN8" (at 73.025 43.18 0)
       (effects (font (size 1.27 1.27)))
