@@ -1,13 +1,33 @@
-# Open Control Board
+# All Purpose Espresso Controller
+
+Espresso electronics are usually proprietary affairs with little to no expandability. The purpose of this project is to give everyone an open source alternative with lots of features and flexibility.
+
+It's designed to have the same PCB size as many very common Gicar controllers, making it fairly easy to swap this board into your existing enclosure.
+
+## High-level features
+
+* RP2040 microcontroller
+* Optional ESP32-S3 for extra processing power and Wi-fi/Bluetooth connectivity
+* Plenty of IO, at 12V, 5V and 3V3 levels
+* Dedicated connector for a UART based user interface device, like an [Open LCC](https://github.com/open-lcc/open-lcc-board) or a Nextion touchscreen (selectable 5V or 3V3 level)
+* ADS1115 ADC (intended for e.g. pressure transducers or NTCs)
+* FDC1004 Capacitance-to-digital (inteded for e.g. water level probes or capitance based controls)
+* QWIIC ports (one per microcontroller) for additional expandability
+
+## Project status
+
+The current hardware revision is R0A. It hasn't been manufactured yet, and you shouldn't be the first one to do it.
 
 ## Connectivity IO
 
-### LCC Connector
+### LCC/Display Connector
 * CN10
-  * RP2040 UART0
+  * UART (selectable 3V3 or 5V)
+    * RP2040 UART0
+    * ESP32 GPIO17/GPIO14
   * 1 FET controlled 12V pin (RP2040 GPIO13)
   * 1 FET controllec 3V3 pin (RP2040 GPIO14)
-  * 1 3V3 pin
+  * 1 3V3/5V pin
   * 1 GND pin
 
 ## Espresso IO
@@ -47,14 +67,12 @@
     * SPI0 RX
     * PWM2 A
     * UART1 TX
-    * Reserved for RP2040 - ESP32 UART connection
   * Pin 19
     * GPIO21
     * SPI0 CSn
     * PWM2 B
     * UART1 RX
     * PWM2 B
-    * Reserved for RP2040 - ESP32 UART connection
   * Pin 3
     * GPIO26
     * ADC0
@@ -77,12 +95,11 @@
     * SPI1 CSn
     * UART0 RX
     * PWM6 B 
-    * Reserved for RP2040 - ESP32 Firmware update
 
 ### ADC Inputs
 
-* CN3, ADS1115, fixed divider
-* CN4, ADS1115, fixed divider
+* CN3, ADS1115, THT resistor divider
+* CN4, ADS1115, THT resistor divider
 * J11, ADS1115, 2 pins, with THT resistor dividers
 * J12, RP2040, 4 pins, no divider (see GPIO 3V3)
 
@@ -90,110 +107,3 @@
 
 * CN1
 * J14, 3 pins
-
-## Lelit Bianca v2 with Open LCC, Gear Pump, and Pump Pressure Transducer
-
-### IO Assignment
-
-* CN10 - Open LCC
-* CN1 - Water level probe
-* CN2 - Water tank level switch
-* CN3 - Service Boiler NTC
-* CN4 - Brew Boiler NTC
-* CN5 - Brew Boiler SSR
-* CN9 - Service Boiler SSR
-* CN7 - Brew Switch
-* JP2 Pin 3 - Water line / Low flow solenoid
-* JP2 Pin 4 - Service boiler solenoid
-* CN6 Pin 3 - Gear pump speed PWM
-* CN6 Pin 5 - Gear Pump Tacheometer Input
-* J11 Pin 2 - Pressure Transducer Analog Input
-
-### Configuration
-
-* ADC Vcc - 5V
-* CN10 Vcc - 3V3
-* DNF ESP32
-
-
-## Rancilio Silvia with ESP32, SSD1309 display, Rotary encoder, Gear Pump, and Pump Pressure Transducer
-
-### IO Assignment
-
-* CN10 - Open LCC
-* CN4 - Boiler NTC
-* CN5 - Boiler SSR
-* J12 Pin 8 - Display MOSI
-* J12 Pin 4 - Display SCLK
-* J12 Pin 6 - Display RES
-* J12 Pin 10 - Display DC
-* Hard-wire Display CS
-* CN7 - Brew Switch
-* CN2 - Water Switch
-* J12 Pin 9 - Steam Switch
-* J12 Pin 3 - Rotary Encoder Clk
-* J12 Pin 5 - Rotary Encoder D
-* J12 Pin 7 - Rotary Encoder SW
-* JP2 Pin 4 - Three-way solenoid
-* CN6 Pin 3 - Gear pump speed PWM
-* CN6 Pin 5 - Gear Pump Tacheometer Input
-* J11 Pin 2 - Pressure Transducer Analog Input
-
-### Configuration
-
-* ADC Vcc - 5V
-* CN10 Vcc - 3V3
-* DNF ESP32
-
-## Worst case scenario IO Assignment
-
-### Machine spec
-
-* 2 group triple boiler (2 coffee, 1 service), all PID controlled with level sensors
-* Dual PWM gear pumps for coffee boilers
-* Single rotary pumps for service boiler
-* Dual flow sensors
-* Triple NTC thermistors
-* Triple pressure transducers
-* Five solenoids (3 line solenoids, 2 three-way group solenoid)
-* Two brew microswitches
-* One water tank level switch
-
-### IO Assignments
-
-* Brew Boiler 1 HE Relay - JP2 Pin 2
-* Brew Boiler 2 HE Relay - JP2 Pin 3
-* Service Boiler HE Relay - JP2 Pin 4
-* Service Boiler Rotary Pump Relay - JP2 Pin 5
-* Gear pump 1 PWM - CN6 Pin 3
-* Gear pump 2 PWM - CN6 Pin 5
-* Flow sensor 1 - J12 Pin 4 GP18
-* Flow sensor 2 - J12 Pin 6 GP19
-* NTC Brew 1 - CN3
-* NTC Brew 2 - CN4
-* NTC Service - J11 Pin 2
-* Pressure Transducer 1 - J12 Pin 3 GP26
-* Pressure Transducer 2 - J12 Pin 5 GP27
-* Pressure Transducer 3 - J12 Pin 7 GP28
-* Brew Boiler 1 Level sensor - J14 Pin 2
-* Brew Boiler 2 Level sensor - J14 Pin 4
-* Service Boiler Level sensor - CN1
-* Water Tank Switch - CN6 Pin 7
-* Brew switch 1 - CN2
-* Brew switch 2 - CN7
-* Solenoid 1 - J10 Pin 2
-* Solenoid 2 - J10 Pin 3
-* Solenoid 3 - CN6 Pin 4
-* Solenoid 4 - CN6 Pin 6
-* Solenoid 5 - CN6 Pin 8
-* ESP32 UART J12 Pin 8 GP20
-* ESP32 UART J12 Pin 10 GP21
-* ESP32 Firmware update J12 Pin 9 GP29
-
-#### Free pins
-
-* CN5 (Output)
-* CN9 (Output)
-* J10 Pin 4 (Output)
-* J11 Pin 3 (ADC)
-* J14 Pin 7 (Capacitance)
