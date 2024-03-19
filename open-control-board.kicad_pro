@@ -542,7 +542,7 @@
     },
     "netclass_patterns": [
       {
-        "netclass": "12V",
+        "netclass": "12V_Thin",
         "pattern": "*12V"
       },
       {
@@ -578,7 +578,7 @@
         "pattern": "U6_DRAIN*"
       },
       {
-        "netclass": "12V",
+        "netclass": "12V_Thin",
         "pattern": "VIN"
       }
     ]
