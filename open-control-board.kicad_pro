@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 3.5,
+          "height": 3.5,
+          "width": 3.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -526,6 +526,7 @@
       "JP2_FA9": "12V_Thin",
       "Net-(CN10-Pin_1)": "12V",
       "Net-(CN10-Pin_5)": "LV_PWR_DIST",
+      "Net-(JP16-C)": "12V_Thin",
       "Net-(JP4-C)": "12V_Thin",
       "Net-(JP5-C)": "12V_Thin",
       "Net-(JP6-C)": "12V_Thin",
@@ -535,7 +536,9 @@
       "VOUT_2": "12V_Thin",
       "VOUT_2_GATE": "Default",
       "VOUT_3": "12V_Thin",
-      "VOUT_3_GATE": "Default"
+      "VOUT_3_GATE": "Default",
+      "VOUT_4": "12V_Thin",
+      "VOUT_4_GATE": "Default"
     },
     "netclass_patterns": [
       {
@@ -573,6 +576,10 @@
       {
         "netclass": "12V_Thin",
         "pattern": "U6_DRAIN*"
+      },
+      {
+        "netclass": "12V",
+        "pattern": "VIN"
       }
     ]
   },
