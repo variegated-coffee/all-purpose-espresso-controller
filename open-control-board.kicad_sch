@@ -8920,7 +8920,7 @@
     (property "Datasheet" "" (at 308.61 388.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C2652063" (at 308.61 388.62 0)
+    (property "LCSC" "C2865994" (at 308.61 388.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Digikey" "" (at 308.61 388.62 0)
