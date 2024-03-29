@@ -35,8 +35,6 @@ C39,100 nF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,112.8,-35.8,0.0,top
 C40,100 nF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,112.8,-37.0,180.0,top
 C41,100 nF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,112.8325,-42.4,0.0,top
 C42,100 nF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,112.8325,-43.6,180.0,top
-C43,100 nF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,110.6,-36.8,-90.0,top
-C44,100 nF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,110.6,-43.0,-90.0,top
 D1,KT-0603W,LED_0603_1608Metric,91.65,-69.75,0.0,top
 D2,KT-0603W,LED_0603_1608Metric,71.925,-46.0,0.0,top
 FB1,FerriteBead_Small,Ferrite_0603_1608Metric,96.8,-37.6,-90.0,top
