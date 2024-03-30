@@ -8733,7 +8733,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 38.1 580.39 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 09ce059c-8aee-4608-8a5d-7c1f826b708c)
     (property "Reference" "R43" (at 35.56 581.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -9306,7 +9306,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 615.95 113.03 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 138ef551-91b1-41d3-8110-b484a37f0fd0)
     (property "Reference" "TP4" (at 621.03 111.76 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -9604,7 +9604,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x05_Odd_Even") (at 34.29 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a527e02-4186-4b71-b044-2d6406802863)
     (property "Reference" "CN4" (at 35.56 74.93 0)
       (effects (font (size 1.27 1.27)))
@@ -10061,7 +10061,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 615.95 115.57 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2a6d5d5a-e8e9-48e8-a6cd-00030d3e2490)
     (property "Reference" "TP5" (at 621.03 114.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -10386,7 +10386,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 172.72 474.98 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32dae2dd-be96-4964-b71d-7fb03bb7b859)
     (property "Reference" "JP20" (at 171.45 477.52 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -10394,7 +10394,7 @@
     (property "Value" "SolderJumper_3_Open" (at 173.99 477.52 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" (at 172.72 474.98 0)
+    (property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" (at 172.72 474.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 172.72 474.98 0)
@@ -10413,7 +10413,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 99.06 728.98 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32e19d34-9dce-401f-a591-497b4887bdd8)
     (property "Reference" "H2" (at 101.6 727.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -10421,7 +10421,7 @@
     (property "Value" "MountingHole" (at 101.6 730.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole_2.2mm_M2" (at 99.06 728.98 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 99.06 728.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 99.06 728.98 0)
@@ -10506,7 +10506,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 127 728.98 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33d50723-52ea-40ea-9f9c-31ab735f07ba)
     (property "Reference" "H3" (at 129.54 727.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -10514,7 +10514,7 @@
     (property "Value" "MountingHole" (at 129.54 730.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole_2.2mm_M2" (at 127 728.98 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 127 728.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 127 728.98 0)
@@ -10600,7 +10600,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 615.95 87.63 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35c5ee38-a3af-48af-ad9d-b50e90c4d43d)
     (property "Reference" "TP1" (at 621.03 86.36 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -10698,7 +10698,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 168.91 520.7 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3779f515-2b39-44da-9e7f-3d4d6a5e9c28)
     (property "Reference" "JP17" (at 168.91 514.35 0)
       (effects (font (size 1.27 1.27)))
@@ -10955,7 +10955,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 72.39 728.98 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3fa849d8-b197-4bd1-ba6f-4f26b6cc1346)
     (property "Reference" "H1" (at 74.93 727.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -10963,7 +10963,7 @@
     (property "Value" "MountingHole" (at 74.93 730.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole_2.2mm_M2" (at 72.39 728.98 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 72.39 728.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 72.39 728.98 0)
@@ -11944,7 +11944,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x05_Pin") (at 72.39 34.29 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5cc05cdd-4a6e-4b30-8730-bdf4889f0d6e)
     (property "Reference" "CN8" (at 73.025 24.13 0)
       (effects (font (size 1.27 1.27)))
@@ -12226,7 +12226,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 59.69 577.85 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 64429057-e245-4753-8aa5-9d94a615ff29)
     (property "Reference" "R42" (at 57.15 579.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -12329,7 +12329,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 615.95 118.11 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65d20c37-a5ed-451b-9aef-3f0bf4bfff1d)
     (property "Reference" "TP6" (at 621.03 116.84 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -12651,7 +12651,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x06_Pin") (at 24.13 567.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c9c239e-2a31-4aa0-9b21-4c053a4ae380)
     (property "Reference" "CN7" (at 24.765 557.53 0)
       (effects (font (size 1.27 1.27)))
@@ -13818,7 +13818,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 615.95 105.41 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86316feb-7cfd-4cfc-a1de-a60974c19987)
     (property "Reference" "TP2" (at 621.03 104.14 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -14670,7 +14670,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 353.06 142.24 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99ed5cd0-7432-41b1-8287-7df24a954fc6)
     (property "Reference" "TP8" (at 358.14 140.97 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -15549,7 +15549,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 615.95 120.65 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab94fa0e-54a7-4a9e-9f60-1ec21cd7d0cc)
     (property "Reference" "TP7" (at 621.03 119.38 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -15659,7 +15659,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 293.37 458.47 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af0f664a-5ae6-477e-a06c-e5bb81f5d8e2)
     (property "Reference" "JP14" (at 295.91 457.2 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -16203,7 +16203,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 68.58 466.09 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid bbea5240-ddaa-4fe9-bc56-d78090627ae0)
     (property "Reference" "R14" (at 71.12 464.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -16479,7 +16479,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 293.37 482.6 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c78dcc6e-84d3-4ffb-b3ed-2790effa7204)
     (property "Reference" "JP15" (at 295.91 481.33 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -17284,7 +17284,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 81.28 575.31 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid d62fd7e9-9686-4486-a538-5291213af538)
     (property "Reference" "R41" (at 78.74 576.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -17683,7 +17683,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 615.95 107.95 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e15549bf-34c9-4aea-a25a-0a87c865ec65)
     (property "Reference" "TP3" (at 621.03 106.68 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -17915,7 +17915,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 68.58 511.81 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid ed3e0069-502f-4da6-8964-f16cc03c3ca5)
     (property "Reference" "R15" (at 71.12 510.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -18137,7 +18137,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x03_Odd_Even") (at 501.65 186.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3e0b80d-b513-4376-b9a9-08183d0d39cb)
     (property "Reference" "J3" (at 502.92 177.8 0)
       (effects (font (size 1.27 1.27)))
@@ -18474,7 +18474,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 81.28 560.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid fd45d7c7-f960-4dcd-b932-6172f2945dd2)
     (property "Reference" "R40" (at 83.82 558.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
