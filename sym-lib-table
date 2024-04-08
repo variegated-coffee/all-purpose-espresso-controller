@@ -4,4 +4,5 @@
   (lib (name "TPIC6C595")(type "KiCad")(uri "${KIPRJMOD}/TPIC6C595DG4/TPIC6C595DG4.kicad_sym")(options "")(descr ""))
   (lib (name "ul_PTS815-SJM-250-SMTR-LFS")(type "KiCad")(uri "${KIPRJMOD}/ul_PTS815-SJM-250-SMTR-LFS.kicad_sym")(options "")(descr ""))
   (lib (name "ADS1119")(type "KiCad")(uri "${KIPRJMOD}/ADS1119.kicad_sym")(options "")(descr ""))
+  (lib (name "ADS124S08IRHBR")(type "KiCad")(uri "${KIPRJMOD}/ADS124S08IRHBR/2024-04-03_10-48-51.kicad_sym")(options "")(descr ""))
 )

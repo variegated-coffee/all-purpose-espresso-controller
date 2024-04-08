@@ -5,4 +5,6 @@
   (lib (name "ul_PTS815-SJM-250-SMTR-LFS")(type "KiCad")(uri "${KIPRJMOD}/ul_PTS815-SJM-250-SMTR-LFS.pretty")(options "")(descr ""))
   (lib (name "U-D-M5DS-W-3")(type "KiCad")(uri "${KIPRJMOD}/U-D-M5DS-W-3.pretty")(options "")(descr ""))
   (lib (name "ul_W25Q16JVUXIQ")(type "KiCad")(uri "${KIPRJMOD}/ul_W25Q16JVUXIQ.pretty")(options "")(descr ""))
+  (lib (name "CON_525591853_MOL")(type "KiCad")(uri "${KIPRJMOD}/CON_525591853_MOL")(options "")(descr ""))
+  (lib (name "ADS124S08IRHBR")(type "KiCad")(uri "${KIPRJMOD}/ADS124S08IRHBR")(options "")(descr ""))
 )
