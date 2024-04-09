@@ -1,5 +1,10 @@
 # Manufacturing with JLCPCB
 
+## Errata
+
+* Q7 is wrong
+
+## Manufacturing settings
 Manufacturing of R0B was done with JLCPCB, including PCB Assembly.
 
 The following settings were used:
