@@ -1,8 +1,10 @@
 # Manufacturing with JLCPCB
 
+*Note: Due to the errors below, this revision is not recommended to be manufactured*
+
 ## Errata
 
-* Q7 is wrong
+* Q7B switches the source and drain. Either Q7 has to be removed, or several traces have to be cut and bodged.
 
 ## Manufacturing settings
 Manufacturing of R0B was done with JLCPCB, including PCB Assembly.
