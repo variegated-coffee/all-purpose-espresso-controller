@@ -1,31 +1,36 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "VIN",
+      "+5V",
+      "GND",
+      "+5VA"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
-      "images": 0.10999999940395355,
-      "pads": 0.550000011920929,
-      "tracks": 0.8199999928474426,
-      "vias": 0.33000001311302185,
-      "zones": 0.3400000035762787
+      "images": 0.6,
+      "pads": 1.0,
+      "tracks": 1.0,
+      "vias": 1.0,
+      "zones": 0.14000000059604645
     },
     "selection_filter": {
-      "dimensions": true,
+      "dimensions": false,
       "footprints": true,
-      "graphics": true,
-      "keepouts": true,
-      "lockedItems": true,
-      "otherItems": true,
-      "pads": true,
-      "text": true,
+      "graphics": false,
+      "keepouts": false,
+      "lockedItems": false,
+      "otherItems": false,
+      "pads": false,
+      "text": false,
       "tracks": true,
       "vias": true,
-      "zones": true
+      "zones": false
     },
     "visible_items": [
       0,
@@ -64,7 +69,7 @@
       39,
       40
     ],
-    "visible_layers": "ffaffff_ffffffff",
+    "visible_layers": "ffffecf_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
