@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -470,6 +470,23 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "12V_Drains",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.3,
+        "diff_pair_gap": 0.127,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.127,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "12V_Thin",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -521,8 +538,12 @@
       "+5VA": "LV_PWR_DIST",
       "CN10_DRAIN": "12V_Drains",
       "CN11_DRAIN": "12V_Drains",
-      "CN1_12V_GATE": "12V_Drains",
-      "CN1_3V3_GATE": "LV_PWR_DIST",
+      "CN12": "LV_PWR_DIST",
+      "CN12_HighI": "LV_PWR_DIST",
+      "CN12_VCC": "LV_PWR_DIST",
+      "CN13": "LV_PWR_DIST",
+      "CN13_HighI": "LV_PWR_DIST",
+      "CN13_VCC": "LV_PWR_DIST",
       "CN1_UART_VCC": "LV_PWR_DIST",
       "CN2_FA10": "12V_Drains",
       "CN2_FA7": "12V_Drains",
