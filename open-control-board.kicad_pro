@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.09999999999999999
         }
       },
       "diff_pair_dimensions": [
@@ -177,7 +177,8 @@
         0.2,
         0.4,
         0.6,
-        0.8
+        0.8,
+        1.5
       ],
       "via_dimensions": [
         {
@@ -549,9 +550,10 @@
       "CN2_FA7": "12V_Drains",
       "CN2_FA8": "12V_Drains",
       "CN2_FA9": "12V_Drains",
-      "CN9_4": "12V_Drains",
-      "CN9_6": "12V_Drains",
-      "CN9_8": "12V_Drains",
+      "CN9_3": "12V_Drains",
+      "CN9_5": "12V_Drains",
+      "CN9_7": "12V_Drains",
+      "ESP32_USB_VBUS": "LV_PWR_DIST",
       "Net-(CN1-Pin_1)": "12V",
       "Net-(CN1-Pin_5)": "LV_PWR_DIST",
       "Net-(JP16-C)": "12V_Thin",
@@ -559,6 +561,7 @@
       "Net-(JP5-C)": "12V_Thin",
       "Net-(JP6-C)": "12V_Thin",
       "Net-(U4-VREG_VOUT)": "LV_PWR_DIST",
+      "RP2040_USB_VBUS": "LV_PWR_DIST",
       "VOUT_1": "12V_Thin",
       "VOUT_1_GATE": "Default",
       "VOUT_2": "12V_Thin",
