@@ -14179,7 +14179,7 @@
     (path "/47ab8e12-a467-47d1-bf35-ccfa756aeceb")
     (attr exclude_from_pos_files exclude_from_bom)
     (net_tie_pad_groups "1, 2, 3")
-    (fp_text reference "JP5" (at 12.43 3.15) (layer "B.SilkS") hide
+    (fp_text reference "JP5" (at -0.03 -0.11) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 74925662-da19-4029-b26c-a9aa1c5fc5da)
     )
@@ -15204,9 +15204,6 @@
   )
   (gr_text "CIN1" (at 74.49 40.42) (layer "F.SilkS") (tstamp ff116649-4898-406e-8b27-6cc24ff051be)
     (effects (font (size 0.5 0.5) (thickness 0.1) bold) (justify bottom))
-  )
-  (gr_text "CN10 UART TX Verified" (at 55.75 20.825) (layer "Cmts.User") (tstamp 9543fa66-9410-4f2c-81ef-4ce6db686e39)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
 
   (segment (start 55.7775 70.505) (end 55.7775 71.8475) (width 0.09) (layer "F.Cu") (net 1) (tstamp 33a19dc6-0a8a-4dee-96cf-9eff3b2b987a))
