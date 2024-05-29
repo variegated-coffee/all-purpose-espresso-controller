@@ -7,4 +7,5 @@
   (lib (name "ul_W25Q16JVUXIQ")(type "KiCad")(uri "${KIPRJMOD}/ul_W25Q16JVUXIQ.pretty")(options "")(descr ""))
   (lib (name "CON_525591853_MOL")(type "KiCad")(uri "${KIPRJMOD}/CON_525591853_MOL")(options "")(descr ""))
   (lib (name "ADS124S08IRHBR")(type "KiCad")(uri "${KIPRJMOD}/ADS124S08IRHBR")(options "")(descr ""))
+  (lib (name "VariegatedCoffeeLogo")(type "KiCad")(uri "${KIPRJMOD}/VariegatedCoffeeLogo.pretty")(options "")(descr ""))
 )
