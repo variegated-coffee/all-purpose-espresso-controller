@@ -1516,7 +1516,7 @@
     (property "ki_description" "Generic connector, single row, 01x04, script generated")
     (property "ki_keywords" "connector")
     (path "/45dbc0db-b5f3-4a0b-9c32-23e61e2d4c59")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "CN9_PWR1" (at 0 -2.33 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c05006c9-4d71-4054-9cda-ff33356f4b70)
@@ -3651,7 +3651,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/a8d9a215-3b94-416e-8c62-61bdbb2f6368")
     (attr smd)
-    (fp_text reference "C51" (at 0 -1.05 90) (layer "F.SilkS")
+    (fp_text reference "C51" (at 0 -1.05 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9c67b86d-9b39-4554-bde6-861486fcf75a)
     )
@@ -4245,7 +4245,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/5902fd3c-17e6-41e7-a14a-466b12d42f06")
-    (attr smd exclude_from_bom)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C39" (at 0 -1.85 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 60768cdd-06a2-4f5c-ad83-e09a17080a97)
@@ -6421,7 +6421,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/45106286-702e-47a6-8873-4ea075531864")
-    (attr smd exclude_from_bom)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C42" (at 0 -1.85 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp adaece31-78a6-41c7-af64-c3e95ab42649)
@@ -13946,7 +13946,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/6745241b-e5f5-404e-ae5c-e2614d601a42")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C52" (at 0 1.85) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 53201bc9-9bdd-4a09-8895-e616a00b5c93)
@@ -13979,9 +13979,9 @@
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp 2d236b62-48e8-444c-8938-6a54a2124a35))
     (fp_line (start 1.6 0.8) (end 1.6 -0.8)
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp 24403a5a-740a-4cdd-be9d-7c65cb6708ac))
-    (pad "1" smd roundrect (at -1.5625 0 180) (size 1.325 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.188679)
+    (pad "1" smd roundrect (at -1.5625 0 180) (size 1.325 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1886792453)
       (net 76 "+3V3") (pintype "passive") (tstamp 1a2b544c-22c1-4d0f-9487-ee752367c1e4))
-    (pad "2" smd roundrect (at 1.5625 0 180) (size 1.325 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.188679)
+    (pad "2" smd roundrect (at 1.5625 0 180) (size 1.325 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1886792453)
       (net 135 "GND") (pintype "passive") (tstamp 186e7659-8f26-4de1-9c8f-bae280c4d387))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
